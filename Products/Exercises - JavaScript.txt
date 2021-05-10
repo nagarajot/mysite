@@ -1,0 +1,62 @@
+
+> Demonstrate the usage of consolo.log() and alert().
+
+> Write a JavaScript program to accept 2 numbers and find out the sum.
+
+> Demonstrate the concept of passing parameters in JavaScript.
+
+> Write a calculator program in JavaScript using radio buttons, to handle the 
+  operations, add, sub, mul, div and mod.
+
+> Write a calculator program in JavaScript using buttons for following operations, 
+  to handle the operations, add, sub, mul, div and mod.
+
+> Write a JavaScript program to increment a number, when the button is pressed.
+
+> Write a JavaScript program to increment and decrement a number.
+  Use 2 buttons Increment and Decrement.
+
+> Write a JavaScript program to display current date.
+
+> Write a JavaScript program to display current time, when the button
+  with value 'Display Current Time' is pressed.
+
+> Write a JavaScript program to convert temp from Celcius to Fahrenheit
+  and Vice Versa.
+
+> Write a JavaScript program to display numbers from 1 to 10 one below the other.
+
+> Write a JavaScript program to accept a number between 0 to 9, 
+  and print the word quivalent.
+
+> Write a JavaScript program to select a monument when a list of monuments are 
+  displayed in a select/option box.
+  Display the image of the monument when it is selected.
+
+> Write a JavaScript function to display a list of numbers (0 to 9).
+  WHen the submit button is pressed, display the word equivalent of the number.
+  
+
+------- ES6 ---------------------------
+
+> Demonstrate the concept of var hoisting in JavaScript.
+
+> Explain the keywords const and let.
+
+> Explain the concept of destructuring array with an example.
+
+> Explain the concept of destructuring an object with an example.
+
+> Explain rest operator in ES6.
+
+> Explain spread operator in ES6.
+
+> 
+
+
+
+
+
+
+
+  

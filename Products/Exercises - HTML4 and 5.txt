@@ -1,0 +1,130 @@
+
+- Go thru the following HTML 4 tags and their attributes.
+- Work out some small examples for each of the tags.
+
+- Create GitHub account and Push the contents to GitHub.
+- Use the Git, command line tool only .(Do not use GUI options).
+- For Github, watch the playlist in the URL below.
+
+Git Tutorial - LearnWebCode - 4 videos
+https://www.youtube.com/watch?v=9GKpbI1siow&list=PLpcSpRrAaOarEpNz71TSfNVd0eQmsZSgN
+
+Classification based on working
+
+- structure tags
+- table tags
+- anchor tags
+- list tags
+- text formatting tags
+- header tags
+- form control tags
+- input tag
+- select/option tags
+- frame tags
+- image tags
+- div/span tags
+- tags used inside head
+
+structure tags
+
+- html
+- head
+- body
+
+Table tags
+ 
+  <table>
+  <th>
+  <tr>
+  <td>
+   <caption>
+   <tbody>
+   <thead>
+
+Anchor tags
+
+  <a href=    >
+     anchors
+
+List tags
+
+    <ul>
+    <ol>
+    <dl>
+    <dt>
+    <dd>
+    <li>
+
+Text formatting
+
+  <center>
+  <font color>
+  <p>
+  <pre>
+  <b>
+
+Header tags
+
+  <h1>
+  <h2>
+  <h3>
+  <h4>
+  <h5>
+  <h6>
+
+
+Form control tags
+
+  <form>
+      attributes ? name, action, method=get, post
+      events - onsubmit
+
+input tags
+
+  <input type=text
+             =textarea
+             =button
+             =password
+             =radio
+             =checkbox
+             =submit
+             =reset
+             =hidden
+             =file
+
+select option tag
+
+- select
+- option
+
+frame tags
+
+  <frame>
+  <frameset>
+  <noframes>
+
+
+image tags
+
+   <img src=    >
+
+
+div and span tags
+
+- div
+- span
+
+
+tags used in head section
+
+- title
+- script
+- style
+- link
+- meta
+
+
+
+ 
+
+

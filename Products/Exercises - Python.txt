@@ -1,0 +1,405 @@
+Note : Write the functions in a separate .py file.
+       Write the demo program in a separate .py file, where you accept the inputs,
+       call the function and display the output. Do not use library functions.
+
+tuple
+- allows tuples
+- immutable
+
+list
+- allows duplicates
+- mutable
+
+dictionary
+- No duplicates
+- <name, value> pairs
+
+set
+- No duplicates
+- No support for indexing and slicing
+
+---------------------------------------------------------------------------------
+**** General problems
+---------------------------------------------------------------------------------
+01. Write a python program to find out maximum number when 
+    2 numbers are given.
+
+02. Write a python program to find out maximum number when 3 nos are given.
+
+03. Write a python program to find out whether a given number is 
+    odd or even.
+
+04. Write a python program to find the GCD of 2 numbers.
+
+05. Write a python program to find the hcf of 2 numbers.
+
+06. Write a python program to find the lcm of 2 numbers.
+
+07. Write a python program to find out whether a given number is odd or even.
+
+08. Write a python program to accept a number and find the sum of 
+    natural numbers upto n by using iteration.
+
+09. Write a python program to accept a number and find the sum of 
+    natural numbers upto n by using recursion.
+
+10. Write a python program to accept a number and find the sum of 
+    natural numbers upto n by using formula.
+
+11. Write a python program to accept a number and find the sum of squares of 
+    natural numbers upto n by using iteration.
+
+12. Write a python program to accept a number and find the sum of squares of
+    natural numbers upto n by using recursion.
+
+13. Write a python program to accept a number and find the sum of squares of
+    natural numbers upto n by using formula.
+
+14. Write a python program to accept a number and find the factorial of a 
+    number by using iteration.
+
+15. Write a python program to accept a number and find the factorial of a 
+    number by using recursion.
+ 
+16. Write a python program to accept a number and find the factorial of a 
+    number by using formula.
+
+17. Write a python program to find the simple interest when 
+    the principle, rate of interest and term is given.
+
+18. Write a python program to find out whether a given number is 
+    prime or not.
+
+19. Write a python program to find out whether a given character
+    is a vowel or a consonant.
+
+20. Write a python program to find out whether a given string is a 
+    palindrome.
+
+21. Write a python program to reverse a given string, without using library
+    function.
+
+22. Write a python program to reverse a given string, using stack.
+
+23. Write a python class to find perimeter and area of a circle.
+
+24. Write a python class to find perimeter and area of a triangle.
+
+25. Write a python class to represent a Point in 2 dimension.
+
+26. Write a python class to find the quadrant, when the co-ordinates 
+    of the point are given.
+
+27. Write a python class to find the distance between 2 points,
+    when the co-ordinates of 2 points are given.
+
+28. Write a python program to find the body mass index, when height and weight of a person is given.
+
+29. Write a python program to classify a person as normal, underweight and overweight and obese, 
+    when height and weight of a person are given, by using the concept of body mass index.
+
+30. Write a python program to find the quotient and remainder, when the number and divisor are given.
+
+31. Write a python to accept a number between 0 and 9 form the user.
+    Write a python program to convert the numeric value to word.
+
+  sample input     sample output
+  0                Zero
+  1                One
+  2                Two
+
+  9                Nine
+
+32. Write a python program to accept an integer and return its square, cube and square root.
+
+33. Write a python program to accept a date of birth and display the zodiac sign.
+
+34. Write a python program to find the gcd of 2 numbers.
+
+------------------------------------------------------------------------------
+****  list, dictionary, tuple, set
+------------------------------------------------------------------------------
+-- create and display integers
+01. Write a python class to create an list of integers.
+    Initialize with values and print the values.
+
+02. Write a python class to create an dictionary of integers.
+    Initialize with values and print the values.
+
+03. Write a python class to create a tuple of integers.
+    Initialize with values and print the values.
+
+04. Write a python class to create a set of integers.
+    Initialize with values and print the values.
+
+-- create and dispay strings
+01. Write a python class to create an list of strings.
+    Initialize with values and print the values.
+
+02. Write a python class to create an dictionary of strings.
+    Initialize with values and print the values.
+
+03. Write a python class to create a tuple of strings.
+    Initialize with values and print the values.
+
+04. Write a python class to create a set of strings.
+    Initialize with values and print the values.
+
+-- maximum
+01. Write a python class to create an list of integers.
+    Find out the maximum value.
+
+02. Write a python class to create an dictionary of integers.
+    Find out the maximum value.
+
+03. Write a python class to create a tuple of integers.
+    Find out the maximum value.
+
+04. Write a python class to create a set of integers.
+    Find out the maximum value.
+
+-- maximum and minimum
+01. Write a python class to create an list of integers.
+    Find out the maximum and minimum value.
+
+02. Write a python class to create an dictionary of integers.
+    Find out the maximum and minimum value.
+
+03. Write a python class to create a tuple of integers.
+    Find out the maximum and minimum value.
+
+04. Write a python class to create a set of integers.
+    Find out the maximum and minimum value.
+
+-- second largest and second smallest
+01. Write a python class to create an list of integers.
+    Find out the second largest and second smallest value.
+
+02. Write a python class to create an dictionary of integers.
+    Find out the second largest and second smallest value.
+
+03. Write a python class to create a tuple of integers.
+    Find out the second largest and second smallest value.
+
+04. Write a python class to create a set of integers.
+    Find out the second largest and second smallest value.
+
+-- sum of all the elements 
+01. Write a python program to find the sum of all the elements in a list.
+
+02. Write a python program to find the sum of all the elements in a dictionary.
+
+03. Write a python program to find the sum of all the elements in a tuple.
+
+04. Write a python program to find the sum of all the elements in a set.
+
+-- find duplicate elements
+01. Write a python program to find out whether a list contains duplicate elements.
+
+02. Write a python program to find out whether a tuple contains duplicate elements.
+
+-- find the count of even and odd elements
+01. Write a python program to count the no of even and odd elements in a list.
+
+02. Write a python program to count the no of even and odd elements in a tuple.
+
+03. Write a python program to count the no of even and odd elements in a dictionary.
+
+04. Write a python program to count the no of even and odd elements in a set.
+
+---------------------------------------------------------
+**** string related 
+---------------------------------------------------------
+01. Write a python program to accept a sentence and count the no of words.
+
+02. Write a python program to accept a sentence and count the no of vowels 
+    and consonants.
+
+---------------------------------------------------------
+**** exception handling
+---------------------------------------------------------
+
+
+
+
+--------------------------------------------------------------------------
+**** list general
+--------------------------------------------------------------------------
+01. Write a python program to return a list containing n fibonaci numbers using iteration.
+
+02. Write a python program to return a list containing n fibonaci numbers using recursion.
+
+03. Write a python program to find out whether the 2 given lists are same.
+
+---------------------------------------------------------------------------
+****  date and time
+---------------------------------------------------------------------------
+(use strings to accept date and time)
+
+01. Write a Python Program to print the current date dd-mm-yyyy.
+
+02. Write a Python Program to print the current time in the format HH:mm:ss.
+
+03. Write a Python program to accept 2 times in HH:MM 24 hours format and 
+    find the difference in minutes. The times will not across 24:00 hours.
+
+04. Write a Python program to accept 2 dates in the format dd-mm-yyyy and 
+    print the dates in between the 2 dates in the format dd-mm-yyyy.
+
+05. Write a python program to accept a date in the format dd-mm-yyyy, and 
+    increment the date by n days. Display the resultant date in dd-mm-yyyy format.
+
+06. Write a python program to accept a time in HH:MM format and a number n in minutes. 
+    Add the minutes to the time and display the resultant time in HH:MM format.
+
+07. Write a python program to accept the timing of the day and print the greeting message.
+    Time : 6.00 hrs to 12.00 hrs -> Good Morning
+         12.00 hrs to 16.00 hrs -> Good Afternoon
+         16.00 hrs to 17.00 hrs -> Good Evening
+         17.00 hrs to 24.00 hrs -> Good Night
+
+08. Write a python program to accept the GMT and display the time in some of the asian,
+    europian countries.
+
+----------------------------------------------------------------------
+****  Linear search
+----------------------------------------------------------------------
+01. Accept the elements of list from the user.
+    Accept a key to be searched in the list.
+    Write a python program to search the key in the list.
+  
+02. Accept the elements of tuple from the user.
+    Accept a key to be searched in the tuple.
+    Write a python program to search the key in the tuple.
+
+03. Accept the elements of dictionary from the user.
+    Accept a key to be searched in the dictionary.
+    Write a python program to search the key in the dictionary.
+
+04. Accept the elements of set from the user.
+    Accept a key to be searched in the set.
+    Write a python program to search the key in the set.
+
+----------------------------------------------------------------------
+****  Linear search (with exception handling)
+----------------------------------------------------------------------
+01. Accept the elements of list from the user.
+    Accept a key to be searched in the list.
+    Write a python program to search the key in the list.
+    Use the concept of exception handling.
+  
+02. Accept the elements of tuple from the user.
+    Accept a key to be searched in the tuple.
+    Write a python program to search the key in the tuple.
+    Use the concept of exception handling.
+
+03. Accept the elements of dictionary from the user.
+    Accept a key to be searched in the dictionary.
+    Write a python program to search the key in the dictionary.
+    Use the concept of exception handling.
+
+04. Accept the elements of set from the user.
+    Accept a key to be searched in the set.
+    Write a python program to search the key in the set.
+    Use the concept of exception handling.
+
+
+----------------------------------------------------------------------------------
+**** Currency related
+----------------------------------------------------------------------------------
+
+01. Write a python program to accept a number and insert the commas as per indian system.
+    ie. crores, lakhs, thousands, hundreds etc
+    sample input -> 1234546
+    sample output -> 12,34,546
+
+02. Write a python program to accept a number and insert the commas as per american system.
+    ie. billions, millions, thosands, hundreds etc
+    sample input ->  123334546
+    sample output -> 123,334,546
+
+03. Write a python program to accept a number and convert into words as per Indian system.
+  
+04. Write a python program to accept a number and convert into words as per American system.
+
+---------------------------------------------------------------------------------
+****  EMI Calculations
+---------------------------------------------------------------------------------
+01. Write a python program to accept a home loan amount, rate of interest and term and 
+    calculate the EMI amount.
+
+02. Write a python program to accept a hoe loan amount, rate of interest and term and 
+    display the principle, interest and balance amount for each month.
+
+--------------------------------------------------------------------------------------------
+**** Scenario Indian Railways
+--------------------------------------------------------------------------------------------
+- The train details are given below.
+  Write a python program to find the journey time.
+
+
+Railways problem
+---------------------------------------------------------------------------------------------------------------------------
+Train No   Name                      Origin             Destination     Departure time   Arrival time   Days  Journey Time
+---------------------------------------------------------------------------------------------------------------------------
+12614      Tippu Express             Bangalore City     Mysore          13:20            15:45          0     ?
+16022      Cauvery Express           Chennai Central    Mysore          21:15            06:40          1     ?
+12607      Lalbagh Express           Chennai Central    Bangalore City  15:30            21:35          0     ?
+12658      Chennai Mail              Bangalore City     Chennai Central 22:40            04:35          1     ?
+11302      Udyan Express             Bangalore City     Mumbai CSMT     20:30            22:15          1     ?
+12079      Jan Shatabdi Express      Bangalore City     Hubli           06:00            13:45          0     ?
+22691      Rajdhani Express          Bangalore City     New Delhi       20:00            05:55          2     ?
+--------------------------------------------------------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------
+**** Scenario - Bank Passbook
+---------------------------------------------------------------------
+The passbook entries for Mr. Jagadish is given below.
+
+Brought forward as on 01-04-2019    Rs. 20,000/-
+
+Transactions
+
+Date          Type of Transaction        Amount
+------------------------------------------------
+04-04-2019    Credit                     5,000
+14-04-2019    Debit                      3,000
+03-05-2019    Credit                     6,000
+23-05-2019    Debit                      4,000
+20-06-2019    Credit                     3,000
+04-08-2019    Credit                     3,000
+05-09-2019    Credit                     4,000
+25-09-2019    Debit                      7,000
+04-10-2019    Credit                     5,400
+14-10-2019    Debit                      3,000
+03-11-2019    Credit                     6,200
+23-11-2019    Debit                      4,000
+20-12-2019    Credit                     3,500
+04-01-2020    Credit                     3,000
+05-02-2020    Credit                     4,300
+25-03-2019    Debit                      4,500
+
+
+Display the passbook details as given below
+
+Date         Credit       Debit         Balance  
+-------------------------------------------------------
+                                        12,000                                                
+04-04-2019   5,000                      17,000          
+14-04-2019                3,000         14,000
+----
+----
+----
+----
+----
+----
+----
+
+-------------------------------------------------------
+
+         
+---------- The end ------------------------------------
+
+    
+

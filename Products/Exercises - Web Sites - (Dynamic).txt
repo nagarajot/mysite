@@ -1,0 +1,274 @@
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+                                                        Dynamic websites
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+> Dept stores application (without images) 
+  Folder name : DWS_DeptStores_WOI
+
+  Logo          Name of dept stores
+
+  home     aboutus     fruits     vegetables    groceries    dairy products     contact us
+
+  content
+
+  footer
+
+
+  Note : for fruits, vegetables, groceries and dairy products display details without images.
+
+
+> Dept stores application (with images)
+  Folder name : DWS_DeptStores_WI
+
+
+  Logo          Name of dept stores
+
+  home     aboutus     fruits     vegetables    groceries    dairy products     contact us
+
+  content
+
+  footer
+
+  Note : for fruits, vegetables, groceries and dairy products display details with images.
+                     
+> Movies website (without images)
+  Folder name : DWS_Movies_WOI
+
+  Sidebar(Genre)                  Main content
+
+  Romance                  
+
+  Suspence
+
+  Action
+
+  Drama  
+
+  Comedy
+
+  Horror
+
+> Movies website (images)
+  Folder name : DWS_Movies_WI
+
+  Sidebar(Genre)                  Main content
+
+  Romance                  
+
+  Suspence
+
+  Action
+
+  Drama  
+
+  Comedy
+
+  Horror
+    
+> Nutrition site (without submenu)
+  Folder name : DWS_Nutrition_WOI
+
+  sidebar                Main content (without images)
+
+  Carbohydrates
+
+  Proteins
+
+  Fats
+
+  Vitamins
+
+  Minerals
+
+> Nutrition site (with submenu)
+  Folder name : DWS_Nutrition_WOI_WSM
+
+  sidebar                Main content (without images)
+
+  Carbohydrates
+
+  Proteins
+
+  Fats
+
+  Vitamins    
+              Vitamin A 
+              Vitamin B
+              Vitamin C
+              Vitamin D
+              Vitamin E
+
+  Minerals
+              Iron          
+              Sodium
+              Potasium
+              Iodine
+
+> Nutrition site (without submenu)
+  Folder name : DWS_Nutrition_WI
+
+  sidebar                Main content (with images)
+
+  Carbohydrates
+
+  Proteins
+
+  Fats
+
+  Vitamins
+
+  Minerals
+
+> Nutrition site (with submenu)
+  Folder name : DWS_Nutrition_WI_WSM
+
+  sidebar                Main content (with images)
+
+  Carbohydrates
+
+  Proteins
+
+  Fats
+
+  Vitamins    
+              Vitamin A 
+              Vitamin B
+              Vitamin C
+              Vitamin D
+              Vitamin E
+
+  Minerals
+              Iron          
+              Sodium
+              Potasium
+              Iodine
+
+> University Results (Results in next page)
+
+  USN : ________
+
+       Submit
+
+  Display result in another web page in the format given below.
+
+                                 USN  : ________
+                                 Name : ________
+
+--------------------------------------------------------------------------------------------------------------
+                                                 CIE       CIE              SEE         SEE 
+Sr No    Course Code    Course Name        Max Marks   Obtained Marks   Max Marks   Obtained Marks  Remarks
+--------------------------------------------------------------------------------------------------------------
+01  
+--------------------------------------------------------------------------------------------------------------
+02  
+--------------------------------------------------------------------------------------------------------------
+03  
+--------------------------------------------------------------------------------------------------------------
+04  
+--------------------------------------------------------------------------------------------------------------
+05  
+--------------------------------------------------------------------------------------------------------------
+06  
+--------------------------------------------------------------------------------------------------------------
+07  
+--------------------------------------------------------------------------------------------------------------
+08  
+--------------------------------------------------------------------------------------------------------------
+
+
+> University Results (Results in same page)
+
+  USN : ________
+
+       Submit
+
+                           Name : ________
+
+--------------------------------------------------------------------------------------------------------------
+                                                 CIE       CIE              SEE         SEE 
+Sr No    Course Code    Course Name        Max Marks   Obtained Marks   Max Marks   Obtained Marks  Remarks
+--------------------------------------------------------------------------------------------------------------
+01  
+--------------------------------------------------------------------------------------------------------------
+02  
+--------------------------------------------------------------------------------------------------------------
+03  
+--------------------------------------------------------------------------------------------------------------
+04  
+--------------------------------------------------------------------------------------------------------------
+05  
+--------------------------------------------------------------------------------------------------------------
+06  
+--------------------------------------------------------------------------------------------------------------
+07  
+--------------------------------------------------------------------------------------------------------------
+08  
+--------------------------------------------------------------------------------------------------------------
+
+
+> BMTC 
+  Bus route details : https://travel2karnataka.com/bmtc_bangalore_bus_route_timings.htm
+
+    https://narasimhadatta.info/bmtc_query.html
+
+
+
+> KSRTC
+
+
+
+> Indian Railways
+
+
+
+
+> Namma Metro
+
+
+
+> RedBus.in
+
+
+
+
+> Airlines
+  Indigo
+  Air Asia
+
+
+
+
+> Airlines International
+  Emirates
+  Air India
+  Luftansa
+  British Airways
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+
+
+
+
+
+
+
+
+

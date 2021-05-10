@@ -1,0 +1,52 @@
+Program Sheet :
+-------------
+
+CodersClub - Online Meeting 
+Date : 01-05-2021
+Time : 10.00 am to 11.00 am
+
+
+Host : Neha Nayak
+
+01. Welcome address - Sumana
+
+02. Presentation by Nagaraj 
+    Topic : Evaluation of Progress and Future milestones
+
+03. Presentation by groups
+
+    01. Java, J2EE, Spring group
+
+    02. AI, ML, DL and NLP group
+
+    03. Android - Java/Kotlin group
+
+    04. PHP, Laravel group
+
+    05. Dart, Flutter group
+
+    06. WordPress group
+
+    07. Database - Oracle, PostgreSQL group
+
+    08. React, React Native group
+
+    09. Angular group
+
+    10. DevOps group
+
+04. Open house discussion - Moderator - Shishira N
+    (All the members to participate actively and share your views)
+
+05. Vote of Thanks - Nikita Agarwal
+
+06. Online Photo Session
+    (All members to unmute the video for photo)
+
+
+
+
+
+
+
+    Saaketh Jayaram

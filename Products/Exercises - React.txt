@@ -1,0 +1,26 @@
+React learning path
+-------------------
+
+these titles are taken from codevolution.
+we need to develop examples diff from codevolution.
+
+- Passing props 
+- conditional rendering
+- list rendering
+- lists and keys
+- index as keyAnti patterns
+- Life cycle methods
+- Component mounting methods
+- Component updating methids
+- Fragments
+- Pure componenets
+- memo
+- refs
+- refs with class components
+- forwarding refs
+- Higher order components
+- Custome hooks
+
+
+
+

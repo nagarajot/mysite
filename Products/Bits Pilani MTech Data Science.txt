@@ -1,0 +1,108 @@
+Semester-wise Pattern
+Participants need to take at least 12 courses towards coursework and complete one Dissertation. The coursework requirement for the programme would consist of a set of core courses and electives. Core courses are compulsory for all participants, while electives can be chosen based on individual learning preferences.
+
+First Semester
+
+Data Mining
+Mathematical Foundations for Data Science
+Data Structures and Algorithms Design
+Computer Organization and Systems Software
+Second Semester
+
+Introduction to Statistical Methods
+Introduction to Data Science
+Machine Learning
+Elective 1
+Third Semester
+
+Elective 2
+Elective 3
+Elective 4
+Elective 5
+Fourth Semester
+
+Dissertation
+Electives
+
+Deep Learning
+Natural Language Processing
+Artificial-Intelligence
+Real time-Analytics
+Data Visualisation
+Graphs - Algorithms & Mining
+Optimization Methods for Analytics
+Big Data Systems
+Advanced Topics in Data Processing
+Information Retrieval
+Probabilistic Graphical Models
+Data Warehousing
+Systems for Data Analytics
+Ethics for Data Science
+Course Wise Syllabus
+
+1. Introduction to Data Science
+
+Learn about the need for data science, with emphasis on data; Visualization and ethical aspects involved in data science and engineering processes; Various applications of data science
+2. Mathematical Foundations for Data Science
+
+Learn about concepts in linear algebra and use it as a platform to model physical problems; Analytical and numerical solutions of linear equations; Mathematical structures, concepts, and notations used in discrete mathematics
+3. Introduction to Statistical Methods
+
+Learn about basic and some advanced concepts of probability and statistics; Concepts of statistics in solving problems arising in data science
+4. Data Structures and Algorithms Design
+
+Learn about applications of basic and advanced data structures & algorithms; How to determine the space and time complexities of various algorithms; Identifying and choosing the relevant data structures and algorithms for a given problem and justifying the time and space complexities involved
+5. Computer Organization & Software Systems
+
+Learn about computer organization, architecture aspects, and operating system concepts; Advanced systems and techniques used for data processing
+6. Systems for Data Analytics
+
+Learn about fundamentals of data engineering; Basics of systems and techniques for data processing - comprising of a relevant database, cloud computing, and distributed computing concepts
+7. Data Mining
+
+Learn about data pre-processing & cleaning; Association rule mining, classification, clustering techniques
+8. Machine Learning
+
+Learn about basic concepts and techniques of Machine Learning; Using recent machine learning software for solving practical problems; How to do independent study and research in the field of Machine Learning
+9. Data Visualization
+
+Learn about design principles, human perception and effective storytelling with data; Modern visualization tools and techniques
+10. Ethics for Data Science
+
+Learn about the need for data ethics; Challenges of data privacy; Data policies for maintaining the privacy of data; Data Privacy
+11. Graphs - Algorithms and Mining
+
+Learn about concepts of graph theory to understand; How Graph theory concepts are used in different contexts, ranging from puzzles and games to social sciences/ engineering/ computer science; Model problems in real-world using graphs; Applying mining algorithms to get information from graph structures
+12. Optimization Methods for Analytics
+
+Learn about applying linear programming techniques to complex business problems across various functional areas including finance, economics, operations, marketing, and decision making; Implementing optimization techniques to business and industrial problems
+13. Big Data Systems
+
+Learn about concepts related to big data and its processing; Applying the concepts of storage, retrieval, interfaces, and processing frameworks to a given problem and design solutions for the same by choosing the relevant ones
+14. Advanced Topics in Data Processing
+
+Learn about advanced strategies for data processing; The relationship between the scale of data and the systems used to process it; The importance of scalability of algorithms as the size of datasets increase
+15. Information Retrieval
+
+Learn about structure and organization of various components of an IR system; Information representation models, term scoring mechanisms, etc. in the complete search system; Architecture of search engines, crawlers, and the web search; Cross-lingual retrieval and multimedia information retrieval
+16. Deep Learning
+
+Learn about deep learning techniques, constructing deep network structures specific to applications and tuning for parameters
+17. Natural Language Processing
+
+Learn about natural language processing techniques such as Parts-of-Speech tagging, syntactic and semantic modelling of languages
+18. Artificial Intelligence
+
+Learn about classic AI Techniques
+19. Real-time analytics
+
+Learn about Processing frameworks for real-time analytics, and Analytics techniques for real-time streaming data
+20. Probabilistic Graphical Models
+
+Learn about representation, learning and reasoning techniques for graphical models
+21. Data Warehousing
+
+Learn about concepts needed to design, develop, and maintain a data warehouse; End-user access tools like OLAP and reporting
+For fee details and programme information, please click here to download the Programme Brochure
+
+ 

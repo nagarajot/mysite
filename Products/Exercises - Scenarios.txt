@@ -1,0 +1,162 @@
+> Countries by Continent
+
+
+                             Continent : select/option
+                                         Australia
+                                         Asia
+                                         Europe
+                                         North America
+                                         South America
+                                         Africa
+
+                                     Submit
+
+     Display following details of all the countries in the selected continent
+
+     Country code   Country name  Area    Capital    Population   Languages  Horbour    Island
+     -----------------------------------------------------------------------------------------
+
+> Skills of employees
+
+        Skills :  checkboxes (Java Full Stack,  MERN, MEAN, Android, iOS)
+
+                                     Submit
+
+    Employee Id   Employee Name   Gender    Qualification  Experience    Relocation    Joining time    Skills
+    ---------------------------------------------------------------------------------------------------------
+
+
+> Skills of employees with experience (2 inputs)
+
+       Skills : checkboxes (Java Full Stack, MERN, MEAN, Android, iOS
+                Experience : 
+
+                                     Submit
+
+    Employee Id   Employee Name   Gender   Qualification    Experience   Relocation    Joining time    Skills
+    ---------------------------------------------------------------------------------------------------------
+
+
+> Skills of employees, experience and joining time (3 inputs)
+
+        Skills : checkboxes (Java Full Stack, MERN, MEAN, Android, iOS)
+
+                  Experience :    
+ 
+                  Joining time :
+
+                                   Submit
+
+    Employee Id   Employee Name   Gender   Qualification    Experience   Relocation    Joining time    Skills
+    ---------------------------------------------------------------------------------------------------------
+
+> Airlines
+
+                          Source      : select/option
+                          Destination : select/option
+
+                    No of hops : (radio button) 0    1  
+
+                               Submit
+
+    Air Lines    No of Hops    Hop location    Departure time   Hop Arrival time    Hop Departure time   Destination Arrival time
+    -----------------------------------------------------------------------------------------------------------------------------
+
+
+> Fruits and Vegetables (With images)
+
+                       Type of fruit/vegetable : radio buttons)   root     tree    creeper       
+
+                                        Submit
+
+   Fruit/Vegetable   Code     Name    Price
+   ------------------------------------------
+
+> Write a MVC program to get 3 buttons on the screen.
+
+
+       FIRST         SECOND         THIRD
+
+                     SUBMIT
+
+
+  When the submit button is pressed, display the message
+  FIRST/SECOND/THIRD button is pressed.
+
+  Buttons.php
+  ButtonsController.php
+
+> Write a program to display an image on the screen.
+  Display the like and dislike, icons below the image.
+  Initialize the like and dislike counters to 0.
+  When like icon is clicked increment the like counter.
+  When dislike icon is clicked increment the dislike counter.
+
+
+           Image
+
+    like icon : counter            dislike icon : counter
+
+> Write a program to display the page view counter, at the 
+  top of the web page.
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    

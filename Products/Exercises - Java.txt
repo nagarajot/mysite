@@ -1,0 +1,216 @@
+Note :
+    01. Use Scanner class to read the input.
+    02. Write a Java class for functionality and Demo
+        class for IO operations.
+
+
+General 
+-------
+01. Write a Java class to find out maximum number when 
+    2 numbers are given.
+
+02. Write a Java class to find out whether a given number is 
+    odd or even.
+
+03. Write a Java Class to find the GCD of 2 numbers.
+
+04. Write a Java class to find the simple interest when 
+    the principle, rate of interest and term is given.
+
+05. Write a Java class to find the factorial of a given number.
+
+06. Write a Java class to find the summation upto n numbers.
+
+07. Write a Java class to find out whether a given number is 
+    prime or not.
+
+String
+----------
+
+08. Write a Java class to find out whether a given character
+    is a vowel or a consonant.
+
+09. Write a Java class to find out whether a given string is a 
+    palindrome.
+
+10. Write a Java class to reverse a given string. Do not use 
+    library function.
+
+
+Arrays
+----------
+
+11. Write a Java class to create an array of integers.
+    Initialize with values and print the values.
+
+12. Write a Java class to find the largest element in the array
+    of integers.
+
+13. Write a Java class to search for an element in the array of 
+    integers.
+
+14. Write a Java class to find the sum of all the elements in an 
+    array of integers.
+
+15. Write a Java class to find the no of odd elements
+    in the array of integers.
+
+21. Write a Java program to initialize an array with the numbers
+    10,20,30,40,50.
+
+
+22. Write a program to accept the elements of a single dim array
+    and find the sum of its elements.
+
+23. Write a program to accept the elements of a single dim array
+    and out whether it has any duplicate elements.
+
+24. Write a Java class to accept the size of the matrix and its elements.
+
+25. Write a Java class to accept the elements of a matrix and find
+    the sum of the elements of principle diagonal.
+
+
+OOPS
+-----
+
+16. Write a Java class to find perimeter and area of a circle.
+
+17. Write a Java class to find perimeter and area of a triangle.
+
+18. Write a Java class to find the quadrant, when the co-ordinates 
+    of the point are given.
+
+19. Write a Java class to represent a Point in 2 dimension.
+
+20. Write a Java class to find the distance between 2 points,
+    when the co-ordinates of 2 points are given.
+
+--------------------------------------------------------------------
+
+Date and Time
+
+
+- Write a Java Program to print the current date dd-mm-yyyy.
+
+- Write a Java Program to print the current time in the format HH:mm:ss.
+
+- Write a Java program to accept 2 times in HH:MM 24 hours format and find the difference
+  in minutes.
+
+- Write a Java program to accept 2 dates and print the dates in between the 2 dates.
+
+Watch the following videos in Youtube.
+--------------------------------------
+
+Java Package
+https://www.youtube.com/watch?v=JEW1lANzjOw&list=PLkcqrCYqtFlg0IBx4b93UYVQX2NC4A6ks&index=2
+
+Final Class
+https://www.youtube.com/watch?v=0Xwsz_Pgz1I&list=PLkcqrCYqtFlg0IBx4b93UYVQX2NC4A6ks&index=1
+
+Circle 
+https://www.youtube.com/watch?v=80jjTvhzdd8&list=PLkcqrCYqtFlgJNg_NVvcHL1-O-oOe094c&index=2
+
+Triangle
+https://www.youtube.com/watch?v=IEk3FGB3RRI&list=PLkcqrCYqtFlgJNg_NVvcHL1-O-oOe094c&index=3
+
+--------------------------------------------------------------------------------------
+Note : For all the problems write a class and a demo class.
+       ---------------------------------------------------
+
+- Write a java program to accept the size of single dim array and accept the integer elements
+  from the user. Write methods to find the maximum and minimum numbers.
+
+- Write a java program to accept the size of single dim array and accept the integer elements
+  from the user. Write method to find the sum of all the elements.
+
+- Write a java program to accept the size of single dim array and accept the integer elements
+  from the user. Write methods to count the no of even numbers and odd numbers.
+
+- Write a java class to aacept a number n and find the sum of natural numbers upto n
+  by using iteration method.
+
+- Write a java class to aacept a number n and find the sum of natural numbers upto n
+  by using recursion method.
+
+- Write a java class to aacept a number n and find the sum of natural numbers upto n
+  by using formula.
+
+- Write a java class to accept a number n and find the sum of squares of natural numbers upto n
+  by using iteration.
+
+- Write a java class to accept a number n and find the sum of squares of natural numbers upto n
+  by using recursion.
+
+- Write a java class to accept a number n and find the sum of squares of natural numbers upto n
+  by using formula.
+
+- Write a java class to return an array containing n fibonaci numbers using iteration.
+
+- Write a java class to return an array containing n fibonaci numbers using recursion.
+
+- Write a java class to find out whether the 2 single dim arrays are same.
+
+- Write a java class to find the body mass index, when height and weight of a person is given.
+
+- Write a java class to classify a person as normal, underweight and overweight and obese, 
+  when height and weight of a person are given.
+
+- Write a java class to find the quotient and remainder, when the number and divisor are given.
+
+
+------------------------------------------------------------------------------------------------
+
+File IO
+-------
+
+- Write a Java class to accept the name of a text file and display the contents of tex file.
+
+- Write a Java class to accept the name of a text file and accept a sentence from the user,
+  and write the sentence to the file.
+
+- Write a Java class to accept the names of 2 files.
+  Copy the content of file 1 to file 2.
+
+- Writ a Java class to accept the names of 2 files.
+  Append the contents of file 1 to file 2.
+
+- Write a Java class to accept the name of the folder, and display all the files in the folder.
+
+- Write a java class to accept the name of the file, and display the size, type of file, date created and 
+  date last modified.
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+

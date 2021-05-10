@@ -1,0 +1,214 @@
+Static websites
+---------------
+
+> Nutrition website (without images)
+  Folder name : SWS_Nutrition_WOI
+ 
+  Nutrition details
+
+  sidebar                 Main content (without images)
+  
+  Carbohydrates
+  
+  Proteins
+
+  Fats
+
+  Vitamins
+
+  Minerals 
+
+> Nutrition website (with images)
+  Folder name : SWS_Nutrition_WI
+
+  sidebar                Main content (with images)
+
+  Carbohydrates
+
+  Proteins
+
+  Fats
+
+  Vitamins
+
+  Minerals
+
+> Movies website (without images)
+  Folder name : SWS_Movies_WOI
+
+  Language : Kannada    Hindi    Tamil    Telugu 
+
+  Genre (sidebar)         Main content
+
+  Romance
+
+  Suspence
+
+  Action
+
+  Drama  
+
+  Comedy
+
+  Horror
+
+> Movies website (with images)
+  SWS_Movies_WI
+
+  Language : Kannada    Hindi    Tamil    Telugu 
+
+  Genre (sidebar)         Main content
+
+  Romance
+
+  Suspence
+
+  Action
+
+  Drama  
+
+  Comedy
+
+  Horror
+
+
+> Personal website
+  SWS_Personal
+
+  Sidebar (Category)                Main content
+
+  Personal details
+
+  Contact details
+ 
+  Eduational details
+
+  Skill sets
+
+  Experience
+
+  Hobbies
+
+> Bakery website - without images
+  SWS_Bakery_WOI
+
+  Items (sidebar)
+
+  Bread
+
+  Buns
+
+  Busiscuits
+
+  Cakes
+
+  Puffs
+
+  Condiments
+
+> Bakery website - with images
+  SWS_Bakery_WI
+
+  Items (sidebar)
+
+  Bread
+
+  Buns
+
+  Busiscuits
+
+  Cakes
+
+  Puffs
+
+  Condiments
+
+> Juice and Chats centre - website (without images)
+  SWS_JuiceAndChats_WOI
+
+  Items(Sidebar)
+
+  Fruit Juices
+
+  Milk Shakes
+
+  Chats
+
+  Ice creams
+
+
+> Juice and Chats centre - website (with images)
+  SWS_JuiceAndChats_WI
+
+  Items(Sidebar)
+
+  Fruit Juices
+
+  Milk Shakes
+
+  Chats
+
+  Ice creams
+
+
+> Namma metro - Website
+  SWS_NammaMetro
+
+  Items (Sidebar)
+
+  Purple line
+
+  Green line
+
+  Fare structure
+
+> Yoga centres - without images
+  SWS_Yoga_WOI
+
+  Postures(Sidebar)
+
+  Standing postures
+
+  Sitting postures
+
+  Sleeping postures
+
+  Forward bending postures
+
+  Backward bending postures
+
+  Inverted postures
+
+> Yoga centres - with images
+  SWS_Yoga_WI
+
+  Postures(Sidebar)
+
+  Standing postures
+
+  Sitting postures
+
+  Sleeping postures
+
+  Forward bending postures
+
+  Backward bending postures
+
+  Inverted postures
+
+> Visitor count
+
+  Introduce visitor count for a web site.
+
+> Page count
+
+  Introduce count for each page.
+
+> Like/Dislike count 
+
+  Introduce like and dislike count for each page.
+
+>  
+
+
+

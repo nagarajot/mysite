@@ -1,0 +1,105 @@
+
+> Write a flutter program to accept a name.
+  When submit button is clicked, display the message
+  Welcome to _____ .
+
+       Name : ______
+
+          Submit
+
+    Welcome to _____ .
+
+> Write a flutter program to accept 2 numbers and
+  find the sum.
+
+      Operand 1 :   ________
+
+      Operand 2 :   ________
+
+             Submit
+
+             XXXXXX
+
+> Write a flutter program to display the list of fruits,
+  with icons.
+
+     apple
+     mango
+     pineapple
+     grapes
+     orange
+
+> Write a flutter program to initialize the number to 0.
+  The program should have a button called Increment.
+  When increment button is clicked, the number should be incremented
+  by 1.
+
+       Number : _____
+
+           Increment(button)
+
+> Write a flutter program to initialize the number to 0.
+  The program should have buttons called 'Increment' and 'Decrement'.
+  When increment button is clicked, increment the number.
+  When decrement button is clicked, decrement the number.
+
+       Number : _____
+
+    Increment(button)      Decrement(button)
+
+> Write a flutter program to initialize the number to 0.
+  The program should have 3 buttons, namely 'Increment', 'Decrement' and 
+  'Reset'.
+  Increment button should increment the number.
+  Decrement button should decrement the number.
+  Reset button should reset the number to 0.
+
+      Number : _____
+
+    Increment(button)    Decrement(button)      Reset(button)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

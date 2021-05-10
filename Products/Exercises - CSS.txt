@@ -1,0 +1,240 @@
+
+> Create a simple menu using CSS as given below.
+
+    Home    About Us    Products     Services     Contact Us
+
+> Create a dropdown menu using CSS as given below.
+
+    Home      About Us     Products      Services       Contact Us
+                                
+                           Celerio       Insurance
+                           Swift         Servicing
+                           DZire         Washing 
+                           Wagon R       Wheel alignment 
+                           Ertiga
+
+> Create a dropdown and submenu using CSS as given below.
+
+    Home      About Us     Products      Services       Contact Us
+                                
+                           Celerio       Insurance  ----->  HDFC ERGO
+                           Swift         Servicing          ICICI Lombard
+                           DZire         Washing            Bajaj Insurance 
+                           Wagon R       Wheel alignment    Sundaram Insurance 
+                           Ertiga
+    
+
+> Prepare the time table for a class using CSS.
+
+                                   Time Table : 5 th Semester
+
+---------------------------------------------------------------------------------------------------------------------------    
+      |  09.30 - 10.30  |  10.30 - 11.30  | 11.30 - 12.30  | 12.30 - 13.30 | 13.30-14.30  | 14.30 - 15.30 | 15.30 - 16.30  |
+---------------------------------------------------------------------------------------------------------------------------
+MON   |  M & E          |    ATC          |   DBMS         |               |           CN Lab / DBMS Lab                   |
+------------------------------------------------------------               -------------------------------------------------
+TUE   |   CN            |   M & E         |   PHY          |               |           CN Lab / DBMS Lab                   |
+------------------------------------------------------------               -------------------------------------------------
+WED   |   DBMS          |    ATC          |    UNIX        |    Lunch      |    M & E     |   PHY         |   CN           |
+------------------------------------------------------------               -------------------------------------------------
+THU   |   PHY           |     Placement Training           |               |  UNIX        |   ATC         |   DBMS         | 
+------------------------------------------------------------               -------------------------------------------------
+FRI   |   Proctering    |      CN         |    ATC         |               |   PHY        |   M & E       |   UNIX         | 
+----------------------------------------------------------------------------------------------------------------------------
+SAT   |    UNIX         |    DBMS         |      CN        |
+------------------------------------------------------------
+
+
+      18CS51  - Management and nterpreneurship (M&E)
+      18CS52  - Computer Network and Security (CN)
+      18CS53  - Database Management System (DBMS)
+      18CS54  - Automata Theory and Computabiity (ATC)
+      18CS55  - Application Development using Python (PHY)
+      18CS56  - UNIX Programming (UNIX)
+      18CSL57 - Computer Network Laboratory (CN Lab)
+      18CSL58 - Database Management System Laboratory (DBMS Lab)
+
+> Prepare the chart for the National Conference as per the requirements given below.
+
+                  National Conference on Emerging Technologies
+                      Dates : 19-04-2021 to 21-04-2021
+
+-------------------------------------------------------------------------------
+Date             Venue             Time                Topic  
+-------------------------------------------------------------------------------
+19-04-2021       Auditorium 1      10.00 to 11.30      AI and ML    
+                                   11.45 to 13.15      IOT  
+                                   14.00 to 15.30      Big Data
+-------------------------------------------------------------------------------
+20-04-2021       Auditorium 2      10.00 to 11.30      Full Stack Development
+                                   11.45 to 13.15      No SQL Databases
+                                   14.00 to 15.30      Block Chain
+-------------------------------------------------------------------------------
+21-04-2021       Auditorium 3      10.00 to 11.30      Mobile App Development
+                                   11.45 to 13.15      Programming Languages
+                                   14.00 to 15.30      Wireless Technologies
+-------------------------------------------------------------------------------
+
+> Display the images of fruits one below the other.
+  Indicate the name of the fruit and the price per kg, below the image.
+
+> Display the images of vegetables side by side.
+  Indicate the name of the vegetable and the price per kg, below the image.
+
+> Display the image of Taj mahal on the left side.
+  Display the text paragraph about Taj mahal, which surrounds the image.
+
+    Image       Text about the image
+
+> Display the image of Taj Mahal on the right side.
+  Display the text paragraph about Taj Mahal, on the left side.
+
+    Text about the image     Image
+
+> Display the images of places of tourism interest in Karnataka, on the left side.
+  On the right side of the image, display the text about the image.
+
+    Image 1          Text about image 1
+
+    Image 2          Text about image 2
+
+    Image 3          Text about image 3
+
+    Image 4          Text about image 4
+
+> Display the images of places of tourism interest in Karnataka, diagonally.
+  Display the text about the image on its side.
+
+    Image 1                    Text about the image 1
+
+    Text about image 2         Image 2
+
+    Image 3                    Text about the image 3
+
+    Text about image 4         Image 4
+
+    Image 5                    Text about the image 5
+
+    Text about image 6         Image 6
+
+> Prepare a HTML page, which has articles on 
+  Use the anchor tags.
+  Provide navigations for different section of the page.
+  Also provide navigation for top of page.
+    
+
+  Political news
+  National news 
+  International news 
+  Local news
+  Sports news
+  Business news
+
+  Political news
+  3 articles
+
+  National News
+  3 articles
+
+  International News
+  3 artiles
+
+  Local news
+  3 articles
+
+  Sports news
+  3 articles
+
+  Business News
+  3 articles    
+
+> Prepare a web page on Nutrition, as follows
+
+  Carbohydrates
+  Proteins
+  Fats
+  Vitamins
+  Minerals
+
+  Carbohydrates
+  Sources of carbohydrates
+
+  Proteins
+  Sources of proteins
+
+  Fats
+  Sources of fats
+
+  Vitamins
+  Sources of different vitamins
+
+  Minerals
+  Sources of different minerals
+    
+> Login Screen
+
+  Create a login screen with the following content and use CSS to style the screen.
+
+
+                     LOGIN FORM
+
+             User name : 
+
+             Password  :
+
+                     Submit
+
+
+> Create a registration screen with the following content and use CSS to style the screen.
+
+                    REGISTRATION FORM
+
+             Name  :
+
+             Gender : Male    Female   (Use radio buttons)
+ 
+             Date of Birth :
+
+             Skills : C    C++   Java   Python  PHP   (Use checkbox)
+
+             Mobile : 10 digit numric (use regular expr) 
+
+             Email  : (use regular expression)
+
+             Username :
+
+             Password :
+
+             Confirm password :
+
+                           
+                         Submit
+
+
+>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+

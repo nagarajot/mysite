@@ -1,0 +1,86 @@
+
+
+---------------------------------------------------------
+############            Simple Problems       ###########
+---------------------------------------------------------
+
+> Write a android program to display hello world.
+
+> Write a android program to display a button.
+  When the button is clicked display a toast message.
+
+> Write a android program to demonstrate vertical orientation in linear layout.
+
+> Write a android program to demonstrate horizontal orientation in linear layout.
+
+> What is meant by constraints of a widget/control.
+
+> Demonstrate how to set the constraints for a widget and alignment, in case of 
+  constraint layout.
+
+> Write android program to accept a name, and when the submit button is pressed,
+  display the message, welcome to ______ , below the submit button.
+
+        Name : _____
+
+           Submit
+
+     Welcome to ________   
+
+
+> Write android program to accept 2 numbers, and display the sum, below the
+  submit button.
+
+        Operand 1 : _______
+
+        Operand 2 : _______
+
+             Submit
+
+> Write a android program to display a list of fruit names.
+
+> Write a android program to initialize the number to 0.
+  The program should have a button called Increment.
+  When increment button is clicked, the number should be incremented
+  by 1.
+
+            Number : _____
+
+           Increment(button)
+
+> Write a android program to initialize the number to 0.
+  The program should have buttons called 'Increment' and 'Decrement'.
+  When increment button is clicked, increment the number.
+  When decrement button is clicked, decrement the number.
+
+                  Number : _____
+
+    Increment(button)      Decrement(button)
+
+> Write a android program to initialize the number to 0.
+  The program should have 3 buttons, namely 'Increment', 'Decrement' and 
+  'Reset'.
+  Increment button should increment the number.
+  Decrement button should decrement the number.
+  Reset button should reset the number to 0.
+
+                         Number : _____
+
+    Increment(button)    Decrement(button)      Reset(button)
+ 
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
