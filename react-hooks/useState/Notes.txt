@@ -1,0 +1,7 @@
+useState hook
+--------------
+
+Only call hooks at teh top level.
+Do not call hooks inside if, loops and nested functions
+
+Only call hooks from react functions and not from JavaScript functions.
