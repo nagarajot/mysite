@@ -1,0 +1,34 @@
+setState
+--------
+
+this.state.count = this.state.count + 1
+UI is not rendered.
+But the value changes in the console.
+
+Therefore always use setState() method, to update value of state.
+React will update the DOM.
+
+Whenever you want to update the prevState, pass a fn to setState.
+2 parameter to useState is props.
+(prevState, props)
+
+
+Summary :
+--------
+1. Always make use of setState and never modify the state directly.
+
+2. Code has to e executed after the state has been updated, place the 
+   code in the callback fn, which is the second argument to the setState() method.
+
+3. When you have to update state, based on the previous state value, 
+   pass in a fn as an argument, instead of regular object.   
+
+
+
+
+
+
+
+
+
+

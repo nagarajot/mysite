@@ -1,0 +1,54 @@
+destructuring 
+
+It is a ES6 feature.
+Helps us to separate array or object elements.
+
+It improves code readability.
+
+2 ways of destructuring props in functional components.
+------------------------------------------------------
+destructuing means extracting the individual components.
+
+1. destructuing at the fn parameters
+   (props) -> ({name, age})
+   you can access the props as 
+   {name} instead of props.name
+   {age} instead of props.age
+
+2. destructuring in the body
+   const {name,age} = props
+
+
+destructuring in class components
+---------------------------------
+destructuring props or state in the render method.
+
+const { name, age } = this.props
+In JSX, you can access as {name} instead of {this.state.name}
+
+Your props may contain many components.
+You can destructure whatever you want.
+
+destructuring state properties
+------------------------------
+const {firstName, lastName} = this.state
+
+
+const {name,age} = this.props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

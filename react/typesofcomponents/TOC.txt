@@ -1,0 +1,79 @@
+WelcomeFC.js
+WelcomeTwoFC.js - using arrow function
+WelcomeThreeFC.js - using named export
+
+WelcomeCC.js
+
+Functional Vs Class Components
+-------------------------------------------------------------
+
+Simple functions                     More feature rich           
+
+Use functional comps as far as       Maintain their own private 
+possible                             date called as state.
+
+Absence of this keyword.             Handle complex UI logic
+
+Solution without using state.        Provide lifecycle hooks
+
+Mainly responsible for the UI.       Also called as statefull/smart/
+                                     container component.
+It is also called as stateless/
+dumb/presentation component.
+---------------------------------------------------------------------
+
+React hooks introduced in React 
+
+Ver 16.7 20-dec-2018
+
+Contradicts what is learnt in class vs functional components.
+
+Hooks are a new feature, which lets you use state and other
+react features without writing a class.
+
+Both state and life cycle methods may be used in functional components.
+
+Hooks 
+
+- no breaking changes
+- completely optional and 100% backward compatable.
+
+Therefore 2 types of components.
+1. Functional components
+2. Class components
+
+Use state, life ycle methods and this binding in class components.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

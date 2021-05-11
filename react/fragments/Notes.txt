@@ -1,0 +1,13 @@
+Fragments lets you group a list of children elements,
+without adding extra nodes to the DOM.
+
+JSX expressions should have one parent element.
+
+If you want to return 2 elements, then you need to wrap the elements
+in another parent element namely <div>.
+
+Key attribute is the only atribute that can be passed to the Fragment.
+
+
+
+

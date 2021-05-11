@@ -1,0 +1,48 @@
+methods as props
+----------------
+
+parent component can send data to child component via props.
+
+how a child component communicates with the parent?
+we use props.
+we pass a ref to a method as props to a child component.
+
+template literals in ES6
+`Hello ${this.state.name}`
+backtick and $ makes up template literal, a feature of ES6.
+
+ParentOneCC.js
+ChildOneFC.js
+
+Pass a ref to a method as props to the child component.
+Extract the ref to a method as prop in child component and call the method.
+
+How to pass parameters from a child component to a parent component.
+use arrow  functions, in onClick handler
+
+ParentTwoCC.js
+ChildTwoFC.js
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

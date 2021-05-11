@@ -1,0 +1,16 @@
+
+binding event handlers
+----------------------
+
+why we bind event handlers 
+because the behaviour of 'this' keyword in JS
+it is nothing to do with react
+
+
+
+
+
+
+
+
+

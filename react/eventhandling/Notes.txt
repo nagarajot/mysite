@@ -1,0 +1,21 @@
+event handling
+--------------
+
+Every application will have events.
+When the user interacts with the application, events are fired.
+
+Mouse press, mouse over, key press, focus  etc
+
+Application should handle events and execute necessary code.
+
+ClickOneFC.js - event handling in functional components
+ClickOneCC.js - event handling in class components
+
+
+
+
+
+
+
+
+

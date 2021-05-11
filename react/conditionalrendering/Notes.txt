@@ -1,0 +1,18 @@
+4 types
+----------
+
+1. if/else
+2. element variables
+3. ternary conditional operator
+4. short circuit operator
+
+ExampleOneCC.JS
+ExampleTwoCC.JS
+ExampleThreeCC.JS
+ExampleFourCC.JS
+
+ExampleOneFC.JS
+ExampleTwoFC.JS
+ExmapleThreeFC.JS
+ExampleFourFC.JS
+

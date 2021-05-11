@@ -1,0 +1,109 @@
+need for context api ?
+
+             App 
+
+  A           B           C 
+
+              D           E 
+
+                          F 
+
+Nested components.
+Max 3 levels.
+
+A,D,F to display loged in user name.
+userName is maintained in App component.
+We have to pass the username as a prop.
+
+Component A, no problem, pass it as props.
+
+For component D, we have an intermediate component B.
+Pass props to B, then from B pass as props to D.
+
+Pass the props to C, E and F.
+
+Components B, C and E do not need the props.
+But, still we have to pass the info thru them.
+Components in between have to forward the props.
+
+lang preference
+UI theme
+Athenticated userName
+
+are generally required at various components at various levels.
+
+It is better, if you can directly send the data to the required components,
+without drilling the props thru the components.
+
+This is where context comes into picture.
+
+Context provides a way to pass data through the component there
+without having to pass props down manually at every level.
+
+Implment a user context, which will help to exract the prop
+at any level.
+
+App
+CompA 
+CompB 
+CompC 
+
+In App.js wrap Component with UserProvider.
+
+<UserProvider>
+    <CompA />
+</UserProvider>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

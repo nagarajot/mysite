@@ -1,0 +1,13 @@
+props are immutable.
+
+in class components props are available as this.props
+
+in functional components props are available as a parameter.
+
+how to send an image file as props?
+how to send object as props?
+
+
+
+
+

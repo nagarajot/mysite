@@ -1,0 +1,127 @@
+JSX
+
+What is JSX?
+Why it is used?
+
+JavaScript XML (JSX) - is an extension to JavaScript language syntax.
+You can write XML like code for elements and components.
+Like XML, JSX tags have name, attribute and children.
+
+Whay do we need JSX?
+JSX is not a necessity to write react applications.
+You can write react code without JSX.
+But, JSX makes your code simpler and elegent.
+
+It provides a syntax which is familiear to many developers.
+JSX transpiles to JavaScript, which is understood by the browser.
+
+How the code looks like without JSX.
+
+To understand, write a component with and without using JSX.
+
+To write a component without JSX, we have to use a method called as
+React.createElement(), which takes 3 parameters.
+
+1 par -> what element to be passed
+2 par -> what attributes to be passed, or null
+3 par -> children for parameter 1
+
+createElement() method accepts any no of elements as children.
+split the h1 tag the message into 2 elements.
+
+Modification
+React.createElement('div',null,'h1','Welcome from HelloThree.js')
+output will be h1Welcome from HelloThree.js
+inspect element it shows h1 and Welcome from HelloThree.js
+as 2 text nodes.
+<div>
+     "h1"
+     "Welcome from HelloThree.js"
+</div>
+
+par 2 is the object of key,value pairs of the attributes for the element.
+
+{ id: 'hello', class: 'dummyClass' }
+inspect the DOM.
+div will have 2 attributes id and class.
+Open the console and see the warning.
+class is a keyword in JS.
+Therefor you have to use className attribute.
+
+{ id: 'hello', className: 'dummyClass' }
+No warning.
+
+Each JSX element is a syntactic sugar for calling React.createElement method.
+That is why you have to import React, while using JSX.
+It is not used anywhere.
+
+JSX gets translated into React.createElement.
+
+If there are more elements, it becomes clumsy.
+
+JSX is simple, elegant and readable.
+
+JSX differences with regular HTML
+
+- class -> className
+- for -> htmlFor
+- camelcase property naming conventions instead of HTML attribute names.
+  onclick -> onclick
+  tabindex -> tabIndex
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

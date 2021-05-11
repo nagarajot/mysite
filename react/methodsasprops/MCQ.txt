@@ -1,0 +1,53 @@
+1.
+Props are passed from 
+a. child to parent
+b. parent to child
+c. Both a and b 
+d. None
+Answer:b 
+
+2.
+You can pass a reference to a method as props.
+a. true
+b. false
+Answer:a 
+
+3. 
+Is it possible to pass data from child to parent in the form of a parameter,
+using methods as props
+a. true 
+b. false 
+Answer:a 
+
+4. 
+If we do not use a raaow function in react, we need to use
+a. Compiling
+b. Constructor 
+c. Binding
+d. None
+Answer:c 
+
+5.
+Methods as props comes as a handy technique in 
+a. development of express applications
+b. development of node applications
+c. development of react applications 
+d. all
+Answer:c 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

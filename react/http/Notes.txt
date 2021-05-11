@@ -1,0 +1,56 @@
+how http requests are handed in a react application.
+
+react is a ui library.
+it has nothing to do with http.
+
+how to make http requests in react.
+
+react components read props and state and render the UI.
+
+you should get the data into yr props or state from the server.
+
+- fetch api 
+- axios api 
+
+add axios package to application 
+npm install axios
+
+https://jsonplaceholder.typicode.com
+Fake online REST api for testing and prototyping
+
+Resources
+JSONPlaceholder comes with a set of 6 common resources:
+
+/posts	100 posts
+/comments	500 comments
+/albums	100 albums
+/photos	5000 photos
+/todos	200 todos
+/users	10 users
+
+Routes
+All HTTP methods are supported. You can use http or https for your requests.
+
+GET	/posts
+GET	/posts/1
+GET	/posts/1/comments
+GET	/comments?postId=1
+POST	/posts
+PUT	/posts/1
+PATCH	/posts/1
+DELETE	/posts/1
+
+
+axios is a promise based library
+so, you can add then and catch block
+
+
+
+
+
+
+
+
+
+
+

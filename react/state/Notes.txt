@@ -1,0 +1,36 @@
+props is a way of infuencing what is rendered on the screen.
+
+there is a second way, i.e. state.
+
+props vs state
+----------------------------------------------------
+props gets passed to a component        state is managed within the component
+
+function parameters                     variables declared within the component
+
+props are immutable.                    component has full control over state
+props are owned by parents.             state can be changed
+so, it cannot be changed in child.
+
+props - Functional components           usestate hook in functional components       
+this.props in class components          this.state in class components
+
+both props and state influences what is rendered on the screen.
+
+state is an object, maintained privately in the class.
+use setState() to update the state.
+
+Write a component which displays th eme
+
+rwi-vtca-tfm
+
+
+
+
+
+
+
+
+
+
+

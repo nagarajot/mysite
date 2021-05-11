@@ -1,0 +1,28 @@
+lists and keys
+-----------------------
+
+ListMoviesFC.js     key is used as prop, no warning in console
+ListTVsFC.js        key is accessed in child, warning in console
+                    key prop is reserved, we should not use it to render any data
+
+                    What is the use of key?
+                    It helps react to identify which items in the list have changed,
+                    or added or removed.
+                    It plays a crucial role in handling updates to DOM efficiently.
+                    
+                    Key give the element a stable identity.
+
+                    Suppose, if our list is not having any unique id.
+                    What is to be done.
+
+                    Discussed in IndexAsKeyAntiPattern.
+
+                    When to use index as a key ?
+                    - the items in the list do not have a unique id
+                    - the list is a static list and it will not change
+                    - the list will never be re ordered and filtered
+
+
+
+
+

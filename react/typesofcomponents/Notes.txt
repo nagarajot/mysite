@@ -1,0 +1,161 @@
+Components are a part of UI.
+
+UI has 5 Components
+
+------------------------------------
+          Header
+-------------------------------------
+Sidebar               Main content
+-------------------------------------
+           Footer
+-------------------------------------
+
+All these components are placed inside a root component called
+as app component.
+
+Components are reusable.
+Same componeent may be used with diff props to display diff infr.
+Components may contain other componenets.
+App component contains other components.
+
+Component code is placed in a JS file.
+App Component is placed in App.js.
+
+2 types.
+
+Stateless functional component.
+Stateful class component.
+
+Stateless functional components
+--------------------------------
+They are JS functions.
+They return HTML which describes the UI.
+
+function fn()
+{
+    return <h1>Hello World</h1>    
+}
+
+
+Stateful class component
+----------------------------
+
+They are regular ES6 class which extends Component class
+from react library.
+
+Contains a render method which returns HTML.
+
+class Welcome extnds Component
+{
+    render() {
+        return <h1>Hello World</h1>
+    }
+}
+
+What is the diff between class components and functional components ?
+When to use what ?
+
+Facebook has over 30,000 components.
+Complex applications will have more no of components.
+
+
+Summary:
+- Components describe a part of UI.
+- Reusable and can be nested inside other components.
+- 2 types 
+   * stateless functional components 
+   * stateful class components
+- Components are the building blocks of any react applications
+
+Functional components
+---------------------
+
+Functional components are just JS functions.
+They can optionally accept properties(props).
+It returns HTML(JSX).
+
+Properties(props) ---->  JS fn  -----> HTML(JSX)
+
+Class components
+----------------
+
+Class components are ES6 classes.
+Optionally receives props as input and outputs HTML(JSX).
+
+Class component can have its own internal state.
+It can maintain some private information.
+
+
+properties(props)   ----->    ES6 fn  ----->   HTML(JSX)
+                              state
+                              
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
