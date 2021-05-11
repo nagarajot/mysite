@@ -1,0 +1,351 @@
+
+MongoDB
+-------
+
+CheckConnection.js
+------------------
+
+mongodbClient = require("mongodb").MongoClient;
+
+const url = "mongodb://localhost:27017/dsu";
+
+mongodbClient.connect(url, { useUnifiedTopology: true }, function (err, db) {
+  if (err) throw err;
+  console.log("Connection Successfull!");
+});
+
+
+CreateConnection.js
+-------------------
+
+mongodbClient = require("mongodb").MongoClient;
+
+const url = "mongodb://localhost:27017";
+
+mongodbClient.connect(
+  url,
+  { useUnifiedTopology: true },
+  function (err, client) {
+    if (err) throw err;
+    db = client.db("dsu");
+    db.createCollection("students", function (err, result) {
+      if (err) throw err;
+      console.log("Collection created");
+    });
+  }
+);
+
+InsertOne.js
+------------
+
+mongodbClient = require("mongodb").MongoClient;
+
+const url = "mongodb://localhost:27017";
+
+mongodbClient.connect(
+  url,
+  { useUnifiedTopology: true },
+  function (err, client) {
+    if (err) throw err;
+    db = client.db("dsu");
+
+    student1 = {
+      usn: "CS101",
+      name: "Xavier",
+      gender: "M",
+      email: "xavier@gmail.com",
+    };
+
+    db.collection("students").insertOne(student1, function (err, result) {
+      if (err) throw err;
+      console.log("Document Inserted ..."); 
+      client.close();
+    });
+  }
+);
+
+InsertMany.js
+-------------
+
+mongodbClient = require("mongodb").MongoClient;
+
+const url = "mongodb://localhost:27017";
+
+mongodbClient.connect(
+  url,
+  { useUnifiedTopology: true },
+  function (err, client) {
+    if (err) throw err;
+    db = client.db("dsu");
+
+    data = [
+      {
+        usn: "CS102",
+        name: "minica",
+        gender: "F",
+        email: "monica@gmail.com",
+      },
+      {
+        usn: "CS103",
+        name: "Mary",
+        gender: "F",
+        email: "mary@gmail.com",
+      },
+    ];
+
+    db.collection("students").insertMany(data, function (err, result) {
+      if (err) throw err;
+      console.log("Inserted successfully ...");
+      client.close();
+    });
+  }
+);
+
+DisplayAll.js
+-------------
+
+mongodbClient = require("mongodb").MongoClient;
+
+const url = "mongodb://localhost:27017";
+
+mongodbClient.connect(
+  url,
+  { useUnifiedTopology: true },
+  function (err, client) {
+    if (err) throw err;
+    db = client.db("dsu");
+
+    db.collection("students")
+      .find({})
+      .toArray(function (err, documents) {
+        if (err) throw err;
+        console.log(documents);
+        client.close();
+      });
+  }
+);
+
+Search.js
+---------
+
+mongodbClient = require("mongodb").MongoClient;
+
+const url = "mongodb://localhost:27017";
+
+mongodbClient.connect(
+  url,
+  { useUnifiedTopology: true },
+  function (err, client) {
+    if (err) throw err;
+    db = client.db("dsu");
+
+    db.collection("students").findOne(
+      { usn: "CS101" },
+      function (err, document) {
+        if (err) throw err;
+        console.log(document);
+        client.close();
+      }
+    );
+  }
+);
+
+
+SearchByGender.js
+-----------------
+
+mongodbClient = require("mongodb").MongoClient;
+
+const url = "mongodb://localhost:27017";
+
+mongodbClient.connect(
+  url,
+  { useUnifiedTopology: true },
+  function (err, client) {
+    if (err) throw err;
+    db = client.db("dsu");
+
+    db.collection("students")
+      .find({ gender: "M" })
+      .toArray(function (err, documents) {
+        if (err) throw err;
+        console.log(documents);
+        client.close();
+      });
+  }
+);
+
+Update.js
+---------
+
+mongodbClient = require("mongodb").MongoClient;
+
+const url = "mongodb://localhost:27017";
+
+mongodbClient.connect(
+  url,
+  { useUnifiedTopology: true },
+  function (err, client) {
+    if (err) throw err;
+    db = client.db("dsu");
+
+    query = {
+      usn: "CS101",
+    };
+
+    value = {
+      $set: {
+        email: "john123@hotmail.com",
+      },
+    };
+
+    db.collection("students").updateOne(query, value, function (err, result) {
+      if (err) throw err;
+      client.close();
+    });
+  }
+);
+
+Delete.js
+---------
+
+mongodbClient = require("mongodb").MongoClient;
+
+const url = "mongodb://localhost:27017";
+
+mongodbClient.connect(
+  url,
+  { useUnifiedTopology: true },
+  function (err, client) {
+    if (err) throw err;
+    db = client.db("dsu");
+
+    query = {
+      usn: "CS101",
+    };
+
+    db.collection("students").deleteOne(query, function (err, result) {
+      if (err) throw err;
+      client.close();
+    });
+  }
+);
+
+
+
+Count.js
+--------
+
+mongodbClient = require("mongodb").MongoClient;
+const url = "mongodb://localhost:27017";
+
+mongodbClient.connect(
+  url,
+  { useUnifiedTopology: true },
+  function (err, client) {
+    if (err) throw err;
+    db = client.db("dsu");
+
+    query = {};
+
+    db.collection("students").countDocuments(
+      {},
+      function (err, numberOfDocuments) {
+        if (err) throw err;
+        console.log("Number of documents are " + numberOfDocuments);
+        client.close();
+      }
+    );
+  }
+);
+
+
+Mongoose
+--------
+
+MongooseCheckConnection.js
+--------------------------
+
+mongoose = require("mongoose");
+
+url = "mongodb://localhost:27017/dsu";
+
+mongoose.connect(url, { useNewUrlParser: true, useUnifiedTopology: true });
+db = mongoose.connection;
+
+db.on("error", function () {
+  console.log("Error");
+});
+
+db.once("open", function () {
+  console.log("Connection Successful");
+  db.close();
+});
+
+MongooseDisplayAll.js
+---------------------
+
+mongoose = require("mongoose");
+
+url = "mongodb://localhost:27017/dsu";
+mongoose.connect(url, { useNewUrlParser: true, useUnifiedTopology: true });
+db = mongoose.connection;
+
+Student = mongoose.model("students", {
+  usn: String,
+  name: String,
+  gender: String,
+  email: String,
+});
+
+Student.find(function (err, students) {
+  console.log(students);
+  db.close();
+});
+
+MongooseSearch.js
+-----------------
+
+mongoose = require("mongoose");
+
+url = "mongodb://localhost:27017/dsu";
+mongoose.connect(url, { useNewUrlParser: true, useUnifiedTopology: true });
+db = mongoose.connection;
+
+Student = mongoose.model("students", {
+  usn: String,
+  name: String,
+  gender: String,
+  email: String,
+});
+
+Student.find({ usn: "CS102" }, function (err, students) {
+  if (err) throw err;
+  console.log(students);
+  db.close();
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

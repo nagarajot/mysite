@@ -1,0 +1,12 @@
+fs = require("fs");
+
+try {
+    data = fs.readFileSync("abc.txt","utf-8");
+} catch(err)
+{
+    console.log(err);
+}
+
+console.log(data);
+
+

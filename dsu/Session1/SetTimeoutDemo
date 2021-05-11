@@ -1,0 +1,7 @@
+function foo()
+{
+    console.log("Inside function foo");
+}
+
+setTimeout(foo,5000);
+

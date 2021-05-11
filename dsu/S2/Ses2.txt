@@ -1,0 +1,393 @@
+Events 
+------
+
+1. Write a program to demonstrate the concept of events. EventsDemo.js
+2. Write a program to demonstrate increment and decrement a counter using events. IncrementDecrement.js
+
+
+1. EventsDemo.js
+   -------------
+
+const events = require("events");
+const eventEmitter = new events.EventEmitter();
+
+eventEmitter.on("scream", function () {
+  console.log("I hear a scream");
+});
+
+eventEmitter.emit("scream");
+
+
+2. IncDec.js
+   ---------
+
+events = require("events");
+eventEmitter = new events.EventEmitter();
+
+counter = 0;
+
+eventEmitter.on("INC", function () {
+  counter++;
+  console.log("Count: " + counter);
+});
+
+eventEmitter.on("DEC", function () {
+  counter--;
+  console.log("Count: " + counter);
+});
+
+eventEmitter.emit("INC");
+eventEmitter.emit("INC");
+eventEmitter.emit("INC");
+eventEmitter.emit("DEC");
+
+---------------------------------------------------------
+fs
+1. write a NodeJS program to read file synchronously. 
+2. write a NodeJS program to write file synchronously. 
+3. write a NodeJS program to delete file synchronously. 
+4. write a NodeJS program to read file asynchronously. 
+5. write a NodeJS program to write file asynchronously. 
+6. write a NodeJS program to delete file asynchronously.
+
+---------------------------------------------------------
+
+1. ReadFileSync.js
+   ---------------
+
+fs = require("fs");
+
+try {
+  data = fs.readFileSync("abc.txt", "utf-8");
+} catch (err) {
+  console.error(err);
+}
+console.log(data);
+
+2. WriteFileSync.js
+   -----------------
+
+fs = require("fs");
+
+try {
+  fs.writeFileSync("abc.txt", "DSU");
+} catch (err) {
+  console.error(err);
+}
+
+
+3. UnlinkSync.js
+   --------------
+
+fs = require("fs");
+
+try {
+  fs.unlinkSync("abc.txt");
+} catch (err) {
+  console.error(err);
+}
+
+4. ReadFile.js
+   -----------
+
+fs = require("fs");
+
+fs.readFile("dsu.txt", "utf-8", (err, data) => {
+  if (err) throw err;
+  console.log(data);
+});
+
+5. WriteFile.js
+   ------------
+
+fs = require("fs");
+
+fs.writeFile("dsu.txt", "XYZ", (err) => {
+  if (err) throw err;
+  console.log("Done!");
+});
+
+console.log("Finished!");
+
+6. UnlinkFile.js
+   -------------
+
+fs = require("fs");
+
+fs.unlink("dsu.txt", (err) => {
+  if (err) throw err;
+  console.log("Done!");
+});
+
+console.log("Finished!");
+
+-------------------------------------------------------
+HTTP Questions
+  
+1. Write a server in NodeJS which will respond with a message 'Hello world' when the request is received(HelloWorld.js) url:= localhost:9000
+2. Write a server in NodeJS which will accept the name of a person in the url query string and respond with a message Welcome (Welcome.js) url:= localhost:9000?personName=John
+3. Write a server in NodeJS which will accept two numbers in the url query string and respond with the sum of two numbers (Add.js) url:= localhost:9000?a=5&b=10
+4. Write a server in NodeJS which will accept a number between 0 and 9 in the url query string and respond with the word equivalent of the number (Word.js) url:=localhost:9000?n=5
+5. Write a server in NodeJS which will return Date Date.js url:= localhost:9000
+6. Write a server in NodeJS which will return Time Time.js url:= localhost:9000
+7. Write a server in NodeJS which will accept the usn in the url query string and display all the details about the student. Maintain the details of students in an array. (Search.js) localhost:9000?usn=101
+8. Write a server in NodeJS which will accept the option as 'date' or 'time' in the url query string and display the date(dd-mm-yyyy) or time (HH:mm:ss) DateTime.js url:= localhost:9000?option='date|time'
+
+--------------------------------------------------------
+
+1. HelloWorld.js
+   -------------
+
+http = require("http");
+
+http
+  .createServer(function (req, res) {
+    res.writeHead(200, { "Content-Type": "text/html" });
+
+    res.write("<h1>Hello World</h1>");
+    res.end();
+  })
+  .listen(9000, function () {
+    console.log("Listening on port 9000");
+  });
+
+2. Welcome.js
+   ----------
+
+http = require("http");
+url = require("url");
+
+http
+  .createServer(function (req, res) {
+    res.writeHead(200, { "Content-Type": "text/html" });
+
+    queryObject = url.parse(req.url, true).query;
+    personName = queryObject.personName;
+
+    res.write("<h1>Welcome " + personName + " </h1>");
+    res.end();
+  })
+  .listen(9000, function () {
+    console.log("Listening on port 9000");
+  });
+
+3. Add.js
+   ------
+
+http = require("http");
+
+http = require("http");
+url = require("url");
+
+http
+  .createServer(function (req, res) {
+    res.writeHead(200, { "Content-Type": "text/html" });
+
+    queryObject = url.parse(req.url, true).query;
+    a = queryObject.a;
+    b = queryObject.b;
+
+    c = parseInt(a) + parseInt(b);
+
+    res.write("<h1>" + c + "</h1>");
+    res.end();
+  })
+  .listen(9000, function () {
+    console.log("Listening on port 9000");
+  });
+
+4. Word.js
+   -------
+
+http = require("http");
+url = require("url");
+
+http
+  .createServer(function (req, res) {
+    res.writeHead(200, { "Content-Type": "text/html" });
+
+    queryObject = url.parse(req.url, true).query;
+    n = parseInt(queryObject.n);
+
+    word = "";
+
+    switch (n) {
+      case 0:
+        word = "Zero";
+        break;
+      case 1:
+        word = "One";
+        break;
+      case 2:
+        word = "Two";
+        break;
+      default:
+        word = "Invalid Input";
+    }
+
+    res.write("<h1>" + word + "</h1>");
+    res.end();
+  })
+  .listen(9000, function () {
+    console.log("Listening on port 9000");
+  });
+
+5. Date.js
+   -------
+
+http = require("http");
+url = require("url");
+
+http
+  .createServer(function (req, res) {
+    res.writeHead(200, { "Content-Type": "text/html" });
+
+    date = new Date();
+
+    day = date.getDate();
+    month = date.getMonth() + 1;
+    year = date.getFullYear();
+
+    res.write("<h1>" + day + "-" + month + "-" + year + " </h1>");
+
+    res.end();
+  })
+  .listen(9000, function () {
+    console.log("Listening on port 9000");
+  });
+
+  
+6. Time.js
+   -------
+
+http = require("http");
+url = require("url");
+
+http
+  .createServer(function (req, res) {
+    res.writeHead(200, { "Content-Type": "text/html" });
+
+    date = new Date();
+
+    hour = date.getHours();
+    min = date.getMinutes();
+    sec = date.getSeconds();
+
+    res.write("<h1>" + hour + ":" + min + ":" + sec + "</h1>");
+
+    res.end();
+  })
+  .listen(9000, function () {
+    console.log("Listening on port 9000");
+  });
+
+7. DateTime.js
+   -----------
+
+http = require("http");
+url = require("url");
+
+http
+  .createServer(function (req, res) {
+    res.writeHead(200, { "Content-Type": "text/html" });
+
+    queryObject = url.parse(req.url, true).query;
+    option = queryObject.option;
+
+    if (option == "date") {
+      date = new Date();
+
+      day = date.getDate();
+      month = date.getMonth() + 1;
+      year = date.getFullYear();
+
+      res.write("<h1>" + day + "-" + month + "-" + year + " </h1>");
+    } else {
+      date = new Date();
+
+      hour = date.getHours();
+      min = date.getMinutes();
+      sec = date.getSeconds();
+
+      res.write("<h1>" + hour + ":" + min + ":" + sec + "</h1>");
+    }
+
+    res.end();
+  })
+  .listen(9000, function () {
+    console.log("Listening on port 9000");
+  });
+  
+
+8. Search.js
+   ---------
+
+http = require("http");
+url = require("url");
+
+http
+  .createServer(function (req, res) {
+    res.writeHead(200, { "Content-Type": "text/html" });
+
+    queryObject = url.parse(req.url, true).query;
+    usn = queryObject.usn;
+
+    students = [
+      {
+        usn: "CS101",
+        name: "John",
+        gender: "M",
+      },
+      {
+        usn: "CS102",
+        name: "Stefan",
+        gender: "M",
+      },
+      {
+        usn: "CS103",
+        name: "Damon",
+        gender: "M",
+      },
+    ];
+
+    student = {};
+
+    students.forEach(function (st) {
+      if (st.usn == usn) {
+        student = st;
+        return;
+      }
+    });
+
+    res.write("<h1>");
+    res.write("USN: " + student.usn + "<br>");
+    res.write("Name: " + student.name + "<br>");
+    res.write("Gender: " + student.gender + "<br>");
+    res.write("</h1>");
+
+    res.end();
+  })
+  .listen(9000, function () {
+    console.log("Listening on port 9000");
+  });
+
+
+------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+
+

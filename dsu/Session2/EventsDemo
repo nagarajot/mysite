@@ -1,0 +1,21 @@
+events = require("events");
+eventEmitter = new events.EventEmitter();
+
+// set up listener for cry event
+eventEmitter.on("cry",function() {
+    console.log("i hear the cry");
+});
+
+// generate the cry event
+eventEmitter.emit("cry");
+
+
+
+
+
+
+
+
+
+
+

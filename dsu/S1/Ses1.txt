@@ -1,0 +1,461 @@
+1. Write a Hello World program. 
+2. Write a program to add, subtract, multiply, divide two numbers and print the result 
+3. Write a program to concatenate two strings 
+4. Write a program to verify age. >= 18 eligible to vote, otherwise no 
+5. Given a char, find whether it is Vowel or Consonant 
+6. Print all the numbers from 1 to 20 
+7. Write a program to print even numbers only till 20 
+8. Write a program to print odd numbers only till 20 
+9. Write a program to print nos between 1 to 20 
+10. Write a program to find sum of numbers in an array.
+11. Write a program to find sum of numbers in an array, by using foreach loop.
+12. Write a program to generate 20 random numbers b/w 1 to 100 
+13. Write a program to check if the given number is prime number 
+14. Write a program to find whether given string is palindrome
+15. Write a program to print current date.
+16. Write a program to print current time.
+17. Write a program to demonstrate setTimeout 
+18. Write a program to demonstrate setInterval 
+19. Write a program to demonstrate callback functions in JavaScript 
+20. Write a program to demonstrate to demonstrate callback functions with parameters in JavaScript
+
+01. HelloWorld.js
+    -------------
+console.log("Hello World");
+
+02. AddSubMulDiv.js
+    ---------------
+a = 20;
+b = 10;
+
+sum = a + b;
+diff = a- b;
+prod = a * b;
+quo = a / b;
+
+console.log('Sum ',sum);
+console.log('Diff ',diff);
+console.log('Product ',prod);
+console.log('Quotient ',quo);
+
+03. Concatenate.js
+    --------------
+
+str1 = "Dayanand Sagar ";
+str2 = "University";
+
+str3 = str1 + str2;
+
+console.log(str3);
+
+04. AgeVerifier.js
+    --------------
+
+age = 12;
+
+if ( age >= 18 )
+    console.log("Eligible to vote");
+else
+    console.log("Not eligible to vote");
+
+05. VowelConsonant.js
+    -----------------
+
+str = "T";
+
+switch (str)
+{
+    case "a":
+    case "A":
+    case "e":
+    case "E":
+    case "i":
+    case "I":
+    case "o":
+    case "O":
+    case "u":
+    case "U":
+        console.log("Vowel");
+        break;
+    default :
+        console.log("Consonant");
+        break;    
+}
+
+06. PrintNumbers.js
+    ---------------
+
+for (i=1; i <= 20; i++)
+{
+    console.log(i);
+}
+
+07. EvenNumbers.js
+    --------------
+
+for ( i = 1; i <= 20; i++ )
+{
+    if ( i % 2 == 0 )
+    console.log(i);
+}
+
+
+08. OddNumbers.js
+    -------------
+
+for ( i = 1; i <= 20; i++ )
+    if ( i % 2 == 1)
+        console.log(i);
+
+09. PrintNumbersWhile.js
+    --------------------
+
+i = 1;
+
+while ( i <= 20 )
+{
+    console.log(i);
+    i++;
+}
+
+10. ArraySum.js
+    -----------
+
+x = [10,20,30,40];
+
+sum = 0;
+
+for ( i = 0; i < x.length; i++ )
+    sum += x[i];
+
+console.log(sum);
+
+11. ArrayForEach.js
+    ---------------
+
+x = [10,20,30,40];
+
+x.forEach(function(element) {
+    console.log(element);
+});
+
+
+12. Random.js
+    ----------
+
+count = 1;
+
+while (count <= 20) {
+  console.log(parseInt(Math.random() * 100));
+  count++;
+}
+
+console.log("-----------------------------");
+
+for (i = 1; i <= 20; i++) {
+  console.log(parseInt(Math.random() * 100));
+}
+
+13. Prime.js
+    --------
+
+number = 23;
+
+isPrime = true;
+
+for (i = 2; i <= parseInt(number / 2); i++) {
+  if (number % i == 0) isPrime = false;
+}
+
+if (isPrime) 
+     console.log(number + " is Prime");
+else 
+     console.log(number + " is not Prime");
+
+14. Palindrome.js
+    -------------
+
+x = "malayalamx";
+
+isPalindrome = true;
+for (i = 0; i < parseInt(x.length / 2); i++) {
+  if (x[i] !== x[x.length - 1 - i]) {
+    isPalindrome = false;
+  }
+}
+
+if (isPalindrome) 
+     console.log(x + " is a palindrome");
+else 
+     console.log(x + " is not a palindrome");
+
+15. Date.js
+    -------
+date = new Date();
+
+day = date.getDate();
+month = date.getMonth() + 1;
+year = date.getFullYear();
+
+op = day + "-" + month + "-" + year;
+
+console.log(op);
+
+16. Time.js
+    -------
+date = new Date();
+
+hour = date.getHours();
+min = date.getMinutes();
+sec = date.getSeconds();
+
+op = hour + ":" + min + ":" + sec;
+
+console.log(op);
+
+17. SetTimeOutDemo.js
+    -----------------
+
+function foo() {
+    console.log("Inside function foo");
+ }
+  
+ setTimeout(foo, 5000);
+
+
+18. SetIntervalDemo.js
+    ------------------
+function foo() {
+    console.log("Inside function foo");
+  }
+  
+  setInterval(foo, 2000);
+
+19. CallBackDemo.js
+    ---------------
+
+function displayMessage() {
+    console.log("Dayanand Sagar University");
+  }
+  
+  console.log("Message 1");
+  setTimeout(displayMessage, 5000);
+  
+  console.log("Message 2");
+  setTimeout(displayMessage, 5000);
+  
+  console.log("Message 3");
+  setTimeout(displayMessage, 5000);
+
+20. CallBackParamDemo.js
+    --------------------
+
+function displayMessage(message) {
+    console.log(message);
+  }
+  
+  console.log("NodeJS Workshop");
+  setTimeout(function () {
+    displayMessage("Dayanand Sager University");
+  }, 5000);
+  
+  console.log("NodeJS Workshop");
+  setTimeout(function () {
+    displayMessage("Koodlu gate, Hosur Road");
+  }, 5000);
+  
+  console.log("NodeJS Workshop");
+  setTimeout(function () {
+    displayMessage("Bangalore");
+  }, 5000);
+
+21. Circle.js
+    ---------
+
+function area(radius) {
+  return Math.PI * Math.pow(2, radius);
+}
+
+function perimeter(radius) {
+  return 2 * Math.PI * radius;
+}
+
+module.exports = { area, perimeter };
+
+
+22. Square.js
+    --------
+
+function area(side) {
+    return side * side;
+  }
+  
+  function perimeter(side) {
+    return 4 * side;
+  }
+  
+  module.exports = { area, perimeter };
+
+23. main.js
+    -------
+
+circle = require("./Circle");
+square = require("./Square");
+
+console.log("Area of Circle is " + circle.area(5));
+console.log("Perimeter of Circle is " + circle.perimeter(5));
+
+console.log("Area of square is " + square.area(3));
+console.log("Perimeter of square is " + square.perimeter(3));
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

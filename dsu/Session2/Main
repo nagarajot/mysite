@@ -1,0 +1,13 @@
+circle = require("./Circle");
+square = require("./Square");
+
+radius = 5;
+side = 3;
+
+console.log("Circle area = "+circle.area(radius));
+console.log("Circle perimeter = " + circle.perimeter(radius));
+
+console.log("Square area = " + square.area(side));
+console.log("Square perimeter = " + square.perimeter(side));
+
+

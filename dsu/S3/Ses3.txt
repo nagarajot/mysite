@@ -1,0 +1,443 @@
+Express problems
+----------------
+
+01. HelloWorldEx.js
+    ---------------
+
+express = require("express");
+
+app = express();
+
+app.get("/", function (req, res) {
+  res.send("<h1>Hello World!</h1>");
+});
+
+app.listen(9001, function () {
+  console.log("Listening on port 9001");
+});
+
+02. WelcomeEx.js
+    ------------
+express = require("express");
+
+app = express();
+
+app.get("/:name", function (req, res) {
+  personName = req.params.name;
+  res.send("<h1> Welcome " + personName + " </h1>");
+});
+
+app.listen(9001, function () {
+  console.log("Listening on port 9001");
+});
+
+03. AddEx.js
+    --------
+
+express = require("express");
+
+app = express();
+
+app.get("/:a/:b", function (req, res) {
+  a = parseInt(req.params.a);
+  b = parseInt(req.params.b);
+  c = a + b;
+
+  res.send("<h1>" + c + "</h1>");
+});
+
+app.listen(9001, function () {
+  console.log("Listening on port 9001");
+});
+
+
+
+
+
+04. WordEx.js
+
+express = require("express");
+
+app = express();
+
+app.get("/:n", function (req, res) {
+  n = parseInt(req.params.n);
+
+  word = "";
+
+  switch (n) {
+    case 0:
+      word = "Zero";
+      break;
+    case 1:
+      word = "One";
+      break;
+    case 2:
+      word = "Two";
+      break;
+    default:
+      word = "Invalid Input";
+  }
+
+  res.send("<h1>" + word + "</h1>");
+});
+
+app.listen(9001, function () {
+  console.log("Listening on port 9001");
+});
+
+
+05. DateEx.js
+
+express = require("express");
+
+app = express();
+
+app.get("/", function (req, res) {
+  date = new Date();
+
+  day = date.getDate();
+  month = date.getMonth() + 1;
+  year = date.getFullYear();
+
+  res.send("<h1>" + day + "-" + month + "-" + year + " </h1>");
+});
+
+app.listen(9001, function () {
+  console.log("Listening on port 9001");
+});
+
+
+
+
+06. TimeEx.js
+
+express = require("express");
+
+app = express();
+
+app.get("/", function (req, res) {
+  date = new Date();
+
+  hour = date.getHours();
+  min = date.getMinutes();
+  sec = date.getSeconds();
+
+  res.send("<h1>" + hour + ":" + min + ":" + sec + "</h1>");
+});
+
+app.listen(9001, function () {
+  console.log("Listening on port 9001");
+});
+
+
+
+
+07. DateTimeEx.js
+
+express = require("express");
+
+app = express();
+
+app.get("/:option", function (req, res) {
+  option = req.params.option;
+
+  if (option == "date") {
+    date = new Date();
+
+    day = date.getDate();
+    month = date.getMonth() + 1;
+    year = date.getFullYear();
+
+    res.send("<h1>" + day + "-" + month + "-" + year + " </h1>");
+  } else {
+    date = new Date();
+
+    hour = date.getHours();
+    min = date.getMinutes();
+    sec = date.getSeconds();
+
+    res.send("<h1>" + hour + ":" + min + ":" + sec + "</h1>");
+  }
+});
+
+app.listen(9001, function () {
+  console.log("Listening on port 9001");
+});
+
+
+
+
+08. SearchEx.js
+    -----------
+
+express = require("express");
+
+app = express();
+
+app.get("/:usn", function (req, res) {
+  usn = req.params.usn;
+
+  students = [
+    {
+      usn: "CS101",
+      name: "John",
+      gender: "M",
+    },
+    {
+      usn: "CS102",
+      name: "Stefan",
+      gender: "M",
+    },
+    {
+      usn: "CS103",
+      name: "Damon",
+      gender: "M",
+    },
+  ];
+
+  student = {};
+
+  students.forEach(function (st) {
+    if (st.usn == usn) {
+      student = st;
+      return;
+    }
+  });
+
+  content =
+    "<h1>" +
+    "USN: " +
+    student.usn +
+    "<br>" +
+    "Name: " +
+    student.name +
+    "<br>" +
+    "Gender: " +
+    student.gender +
+    "<br>" +
+    "</h1>";
+
+  res.send(content);
+});
+
+app.listen(9001, function () {
+  console.log("Listening on port 9001");
+});
+
+MVC Problems
+------------
+
+1. IncrementMVC.js
+   ---------------
+express = require("express");
+bodyParser = require("body-parser");
+
+app = express();
+app.set("view engine", "hbs");
+app.set("views", "views");
+
+app.use(bodyParser.urlencoded({ extended: true }));
+
+app.get("/", function (req, res) {
+  res.render("counter.hbs", { count: 0 });
+});
+app.post("/", function (req, res) {
+  count = req.body.count;
+  count++;
+  res.render("counter.hbs", { count });
+});
+
+app.listen(9000, function () {
+  console.log("Listening on port 9000");
+});
+
+   counter.hbs
+   -----------
+<!DOCTYPE html>
+<html >
+  <head>
+    <title>Count</title>
+  </head>
+  <body>
+    <div>{{count}}</div>
+    <form action="/" method="POST">
+      <input type="hidden" name="count" value="{{count}}" />
+      <button type="submit">Increment</button>
+    </form>
+  </body>
+</html>
+
+2. AddMVC.js
+
+express = require("express");
+bodyParser = require("body-parser");
+
+app = express();
+app.set("view engine", "hbs");
+app.set("views", "views");
+
+app.use(bodyParser.urlencoded({ extended: true }));
+
+app.get("/", function (req, res) {
+  res.render("add.hbs");
+});
+app.post("/", function (req, res) {
+  body = req.body;
+  a = parseInt(body.a);
+  b = parseInt(body.b);
+  c = a + b;
+
+  res.render("result.hbs", { a, b, c });
+});
+
+app.listen(9000, function () {
+  console.log("Listening on port 9000");
+});
+
+   add.hbs
+   -------
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Add</title>
+</head>
+<body>
+  <form action="/" method="POST"> 
+    Operand 1 : <input type="text" name="a"><br /><br />
+    Operand 2 : <input type="text" name="b"><br /><br />
+    <input type="submit" value="Submit"><br />
+  </form>
+</body>
+</html>
+
+   result.hbs
+   ----------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Result</title>
+</head>
+<body>
+  <h1>
+    Sum of {{a}} and {{b}} is {{c}}
+  </h1>
+</body>
+</html>
+
+3. FormMVC.js
+
+express = require("express");
+bodyParser = require("body-parser");
+
+app = express();
+app.set("view engine", "hbs");
+app.set("views", "views");
+
+app.use(bodyParser.urlencoded({ extended: true }));
+
+app.get("/", function (req, res) {
+  res.render("form.hbs");
+});
+
+app.post("/", function (req, res) {
+  data = req.body;
+  data.languages = data.languages.join(" ,");
+  res.render("display.hbs", data);
+});
+
+app.listen(9000, function () {
+  console.log("Listening on port 9000");
+});
+
+   Form.hbs
+   --------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Form</title>
+</head>
+<body>
+  <form action="/" method="POST">
+    Name: <input type="text" name="name" > <br /><br />
+    
+    Gender: <br />
+    Male <input type="radio" name="gender" value="M">
+    Female <input type="radio" name="gender" value="F"> <br /><br />
+
+    Department: <select name="department">
+      <option value="CSE">Computer Science Engineering</option>
+      <option value="ISE">Information Science Engineering</option>
+      <option value="ECE">Electronics and Communication Engineering</option>
+      <option value="ME">Mechanical Engineering</option>
+      <option value="CV">Civil Engineering</option>
+    </select><br /><br/>
+
+    Languages:<br />
+    Telugu <input type="checkbox" name="languages" value="TEL">
+    Kannada <input type="checkbox" name="languages" value="KAN">
+    English <input type="checkbox" name="languages" value="ENG"><br /><br />
+
+    <input type="submit" value="Submit">
+  </form>
+</body>
+</html>
+
+   Display.hbs
+   -----------
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Display</title>
+    </head>
+    <body>
+        Name : {{name}}<br />
+        Gender : {{gender}}<br />
+        Department : {{department}}<br />
+        Languages : {{languages}}<br />
+    </body>
+</html>
+
+4. SendFileMVC.js
+   --------------
+
+express = require("express");
+bodyParser = require("body-parser");
+
+app = express();
+app.set("view engine", "hbs");
+app.set("views", "views");
+
+app.use(bodyParser.urlencoded({ extended: true }));
+
+app.get("/html", function (req, res) {
+  res.sendFile(__dirname + "/" + "Mysore.html");
+});
+
+app.get("/image", function (req, res) {
+  res.sendFile(__dirname + "/" + "MysorePalace.jpg");
+});
+
+app.listen(9000, function () {
+  console.log("Listening on port 9000");
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
